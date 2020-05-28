@@ -1,0 +1,198 @@
+body {
+	font-size: 1em;
+	font-family: "arial", sans-serif;
+	background: rgba(0, 0, 0, 0);
+}
+h1, div.link, div.input, #a, footer {
+	text-align: center;
+}
+h2, h3, nav {
+	margin: 0;
+	padding: 0.5em;
+}
+h2 {
+	height: 1.2em;
+	line-height: 1.2em;
+	background: #fff;
+	color: #000;
+	margin: 0.5rem 1rem;
+	border-left: 0.5rem solid #c00;
+}
+h3 {
+	position: relative;
+	height: 1.2em;
+	line-height: 1.2em;
+	background: #fff;
+	color: #000;
+	padding-left: 1.5rem;
+	margin: 0.25rem 0.5rem;
+}
+h3:before {
+	position: absolute;
+	top: 0.5em;
+	bottom: 0.5em;
+	left: 0.5rem;
+	height: 0;
+	content: '';
+	border: 0.5em solid transparent;
+	border-left: 0.5em solid #000;
+}
+div.link a, nav a {
+	color: #000;
+}
+div.input {
+	padding-top: 1em;
+}
+nav a {
+	display: inline-block;
+	padding: 0.25em;
+}
+#data {
+	/* "arial" to center vertically */
+	display: block;
+	font-family: "arial", sans-serif;
+	text-align: center;
+	width: 8em;
+	font-size: 2em;
+	height: 1.5em;
+	line-height: 1.25em;
+	margin: 0 auto;
+	padding: 0;
+	vertical-align: middle;
+}
+#ok {
+	-webkit-appearance: none;
+	margin-top: 0.5em;
+	font-size: 2em;
+	border: 0;
+	background: #999;
+	color: #fff;
+	border-radius: 0.5em;
+}
+#p {
+	text-align: center;
+}
+#a, #a.several:empty {
+	width: 300px;
+	height: 300px;
+	margin: 0.125em auto;
+	border: none;
+}
+#a.several {
+	width: auto;
+	height: auto;
+	border: 0;
+	margin: 0 auto;
+}
+#a iframe, #a div.svgDivError {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin: 0.125em;
+	border: 0px solid #ccc;
+	vertical-align: top;
+}
+#ok:hover, section.c button:hover {
+	cursor: pointer;
+}
+#ok:focus, #ok:active, #ok:hover {
+	background: #c00;
+	outline: none;
+}
+#ok::-moz-focus-inner {
+	border: 0;
+}
+label {
+	display: inline-block;
+	white-space: normal;
+	margin: 0 0.5em 1em 0.5em;
+}
+label input {
+	vertical-align: text-bottom;
+}
+svg {
+	width: 300px;
+	height: 300px;
+}
+#jaSection {
+	display: block;
+}
+#zhHansSection {
+	display: none;
+}
+#zhHantSection {
+	display: none;
+}
+section.c p {
+	color: #000;
+	padding: 0.5em 0.5rem;
+	margin: 0.25em 1rem;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	font-family: 'noto sans', 'arial', sans-serif;
+}
+section.c button {
+	font-size: 1.5em;
+	color: #000;
+	background: #fff;
+	border: 0;
+	margin: 1px;
+	font-style: bold;
+}
+section.c button.visited {
+	opacity: 0.5;
+}
+footer {
+	padding-top: 1em;
+}
+footer a {
+	color: #000;
+}
+#status {
+	text-align: center;
+	color: #c00;
+}
+iframe, div {
+	border: none;
+}
+html {
+	background-color: #222
+}
+/* CUSTOM COLOR */
+
+.green {
+	filter: invert(41%) sepia(75%) saturate(400%) hue-rotate(90deg) brightness(95%) contrast(108%)
+}
+.red {
+	filter: invert(15%) sepia(70%) saturate(3500%) hue-rotate(0deg) brightness(115%) contrast(120%)
+}
+.orange.light, .orange {
+	filter: invert(66%) sepia(71%) saturate(526%) hue-rotate(338deg) brightness(110%) contrast(94%)
+}
+.orange.dark, .orange {
+	filter: invert(25%) sepia(18%) saturate(5500%) hue-rotate(348deg) brightness(160%) contrast(82%)
+}
+.pink.light, .pink {
+	filter: invert(66%) sepia(71%) saturate(526%) hue-rotate(300deg) brightness(110%) contrast(94%)
+}
+.peach.light, .peach {
+	filter: invert(66%) sepia(71%) saturate(526%) hue-rotate(320deg) brightness(110%) contrast(94%)
+}
+.salmon.light, .salmon {
+	filter: invert(66%) sepia(71%) saturate(526%) hue-rotate(310deg) brightness(110%) contrast(94%)
+}
+.violet.light, .violet {
+	filter: invert(66%) sepia(71%) saturate(526%) hue-rotate(290deg) brightness(110%) contrast(94%)
+}
+.turqoise.light, .turqoise {
+	filter: invert(66%) sepia(71%) saturate(500%) hue-rotate(115deg) brightness(110%) contrast(94%)
+}
+.blue.light, .blue {
+	filter: invert(32%) sepia(40%) saturate(2339%) hue-rotate(210deg) brightness(88%) contrast(84%);
+}
+.cyan.dark, .cyan {
+	filter: invert(32%) sepia(40%) saturate(2339%) hue-rotate(150deg) brightness(88%) contrast(84%);
+}
+.dark.purple, .purple {
+	filter: invert(20%) sepia(14%) saturate(814%) hue-rotate(305deg) brightness(103%) contrast(92%)
+}
