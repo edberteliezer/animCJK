@@ -325,8 +325,8 @@ function loadInput ()
 </script>
 </head>
 <body>
-	<div class="flex vertical horizontal center column" id="header" style="padding:50px;margin-bottom:40px; color:white;">
-		<p class="matter-h1" style="font-weight: bold; font-size:3.5rem">KANJI GENERATOR</p>
+	<div class="flex vertical horizontal center column" id="header" style="">
+		<p class="matter-h1 title" style="">KANJI GENERATOR</p>
 		<p class="matter-h6">forked from AnimCJK <a href="https://raw.githubusercontent.com/parsimonhi/animCJK/master/licenses/COPYING.txt" target="_blank">(license)</a></p>
 		<p class="matter-h6">modified by Edbert Eliezer <a href="https://choosealicense.com/licenses/gpl-3.0/" target="_blank">(license)</a></p>
 	</div>
@@ -340,13 +340,10 @@ function loadInput ()
 	</div>
 	<div id="a" class="several orange light"></div>
 	<script>
-	<!--/*
-		document.getElementById("data").addEventListener("keyup",function(event) {
+		document.getElementById("kanji").addEventListener("keyup",function(event) {
 			event.preventDefault();
-			if (event.keyCode==13) ok();
+			if (event.keyCode==13) loadInput();
 		},false);
-		*///-->
-
 	</script>
 </body>
 </html>
