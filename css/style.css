@@ -32,7 +32,7 @@ html {
 .row {flex-direction: row;}
 .column {flex-direction: column;}
 .vertical.center.horizontal {justify-content:center; align-items:center;}
-.title {font-weight: bold; font-size:3.5rem;margin-bottom: 25px;text-align: center;line-height: 4rem;}
+#title {font-weight: bold; font-size:3.5rem;margin-bottom: 25px;text-align: center;line-height: 4rem;}
 #header {padding:50px;margin-bottom:40px; color:white;}
 /* ------------- */
 /* CUSTOM COLOR */
