@@ -25,7 +25,8 @@ iframe, #a, #a div.svgDivError {
 	border: none;
 }
 html {
-	background-color: #222
+	background-color: #222;
+	overflow-x:hidden;
 }
 #header *{margin: 0;}
 .flex {display:flex;}

@@ -1,0 +1,31 @@
+
+div.stroke {
+  background-color: transparent;
+  border: solid #000;
+  border-width: 1px;
+  display:flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 900px;
+  min-height: 450px;
+}
+
+/* div.stroke > object
+{
+  opacity: 0;
+} */
+
+div.stroke > svg, object {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  margin: 25px;
+}
+svg.acjk {stroke: #f00}
+div.stroke > svg.acjk path[id] {
+    fill: #f00;
+}
